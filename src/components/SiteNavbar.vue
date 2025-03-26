@@ -1,11 +1,10 @@
 <template>
-  <nav class="bg-[#1782C5] shadow-md">
+  <nav class="bg-[#1782C5] shadow-xl">
     <div class="container mx-auto px-4 py-2 flex justify-between items-center">
       <!-- Logo -->
       <div class="flex items-center">
         <img src="/logo-prowin-international.svg" alt="Prowin Logo" class="h-12 w-auto" />
       </div>
-
       <!-- Menu Button for Small and Medium Screens -->
       <button class="sm:block md:block lg:hidden text-white focus:outline-none" @click="toggleMenu">
         <svg
@@ -51,19 +50,22 @@
 
         <!-- Contact Info -->
         <div class="text-white text-sm flex items-center space-x-4">
-          <span>Contattami qui</span>
-          <div class="flex items-center space-x-2">
+          
+          <div class="flex items-center justify-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
+            
               <path
                 d="M22.54 16.88l-5.27-2.27a1.15 1.15 0 0 0-1.34.33l-2.23 2.73a16.06 16.06 0 0 1-7.73-7.73l2.73-2.23a1.15 1.15 0 0 0 .33-1.34L7.12 1.46A1.15 1.15 0 0 0 5.88.88H2.15A1.15 1.15 0 0 0 1 2.03 19.85 19.85 0 0 0 21.97 23a1.15 1.15 0 0 0 1.15-1.15v-3.73a1.15 1.15 0 0 0-.58-1.24z"
               />
+              
             </svg>
-            <span>+39 3332221110</span>
+            <span class="text-white text-xl">Lina:</span>
+            <span class="text-sm">+39 3332221110</span>
           </div>
         </div>
       </div>
@@ -77,7 +79,7 @@
       <!-- Social Icons -->
       <div class="flex space-x-4 justify-center items-center">
         <a href="#" class="hover:text-gray-200">
-          <img src="/public/tiktok-outline-svgrepo-com.svg" width="32" height="32" />
+          <img src="/public/tiktok-outline-svgrepo-com.svg" width="32" height="32"/>
           <span class="sr-only">TikTok Placeholder</span>
         </a>
         <a href="#" class="hover:text-gray-200">
@@ -101,7 +103,7 @@
 
       <!-- Contact Info -->
       <div class="text-sm flex flex-col items-center space-y-2">
-        <span>Contattami qui</span>
+        <span class="text-white text-xl">Lina:</span>
         <div class="flex items-center space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +115,7 @@
               d="M22.54 16.88l-5.27-2.27a1.15 1.15 0 0 0-1.34.33l-2.23 2.73a16.06 16.06 0 0 1-7.73-7.73l2.73-2.23a1.15 1.15 0 0 0 .33-1.34L7.12 1.46A1.15 1.15 0 0 0 5.88.88H2.15A1.15 1.15 0 0 0 1 2.03 19.85 19.85 0 0 0 21.97 23a1.15 1.15 0 0 0 1.15-1.15v-3.73a1.15 1.15 0 0 0-.58-1.24z"
             />
           </svg>
-          <span>+39 3332221110</span>
+          <span class="text-sm">+39 3332221110</span>
         </div>
       </div>
     </div>
@@ -135,5 +137,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>
