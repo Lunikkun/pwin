@@ -64,7 +64,7 @@
               />
               
             </svg>
-            <span class="text-white text-xl">Lina:</span>
+            <!-- <span class="text-white text-xl">Lina:</span> -->
             <span class="text-sm">+39 3332221110</span>
           </div>
         </div>
@@ -103,7 +103,7 @@
 
       <!-- Contact Info -->
       <div class="text-sm flex flex-col items-center space-y-2">
-        <span class="text-white text-xl">Lina:</span>
+     <!--<span class="text-white text-xl">Lina:</span> -->
         <div class="flex items-center space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
